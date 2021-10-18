@@ -5,30 +5,6 @@ let canvas = document.getElementById("myCanvas");
 /* get the 2D rendering context */
 let context = canvas.getContext("2d");
 
-/* start manipulating the context object */
-context.beginPath();
-/* draw the paddle to hit ball */
-context.rect(20, 40, 50, 50);
-/* color the rect */
-context.fillStyle = "#FF0000";
-context.fill();
-/* finish manipulating context object */
-context.closePath();
-
-/* draw the ball */
-context.beginPath();
-context.arc(240, 260, 20, 0, Math.PI*2, false);
-context.fillStyle = "green";
-context.fill();
-context.closePath();
-
-/* draw the bricks */
-context.beginPath();
-context.rect(160, 10, 100, 40);
-context.strokeStyle = "rgba(0, 0, 255, 0.5)";
-context.stroke();
-context.closePath();
-
 /* define the canvas size */
 let x = canvas.width/2;
 let y = canvas.height-30;
