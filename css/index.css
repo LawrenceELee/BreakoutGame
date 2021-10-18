@@ -4,6 +4,7 @@
 	margin: 0; 
 }
 
+/* style the canvas to make it look different than white background */
 canvas {
 	background: #eee; 
 	display: block; 
