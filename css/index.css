@@ -4,6 +4,11 @@
 	margin: 0; 
 }
 
+h1{
+	text-align: center;
+	margin: 0 auto;
+}
+
 /* style the canvas to make it look different than white background */
 canvas {
 	background: #eee; 
